@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MoNkEy Bar</title>
+</head>
+<body>
+    <h1>The MoNkEy Bar!</h1>
+    <form>
+        <div id="sizeSelect">
+            <h2 class="">What size would you like?</h2>
+            <select name="size" id="size">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+            </select>
+        </div>
+        <div id="typeSelect">
+            <h1 class="type">What type of drink are you in the mood for?</h1>
+
+            <input type="radio" id="smoothie" class="type" name="type" value="smoothie" required>
+            <label for="smoothie">Smoothie</label><br>
+
+            <input type="radio" id="milkshake" class="type" name="type" value="milkshake" required>
+            <label for="type">Milkshake</label><br>
+        </div>
+        <div id="ingredSelect">
+            
+            <h2>Select your ingredients</h2>
+            <!-- Load ingredients HTML with JS & JSON -->
+        </div>
+        <div id="milkshakeBase">
+            <h2>Select your base</h2>
+            <input type="radio" class="mBase" name="mBase" value="whole milk" required>
+            <label for="mBase">Whole Milk</label><br>
+
+            <input type="radio" class="mBase" name="mBase" value="semi-skimmed milk" required>
+            <label for="mBase">Semi-Skimmed Milk</label><br>
+
+            <input type="radio" class="mBase" name="mBase" value="Coconut milk" required>
+            <label for="mBase">Coconut Milk</label><br>
+
+            <input type="radio" class="mBase" name="mBase" value="oat milk" required>
+            <label for="mBase">Oat Milk</label><br>
+        </div>
+        <div id="smoothieBase">
+            <h2>Select your base</h2>
+            <input type="radio" class="sBase" name="sBase" value="apple juice" required>
+            <label for="smoothBase">Apple Juice</label><br>
+
+            <input type="radio" class="sBase" name="sBase" value="orange juice" required>
+            <label for="smoothBase">Orange Juice</label><br>
+        </div>
+        <div id="extrasSelect">
+            <h1>Want any extras for that shake? 50p per extra.</h1>
+            <input type="checkbox"  name="extras" value="chocolate sprinkles" required>
+            <label for="extras"></label>Chocolate Sprinkles<br>
+            <input type="checkbox"  name="extras" value="marshmallows" required>
+            <label for="extras"></label>Marshmallows<br>
+            <input type="checkbox"  name="extras" value="cream" required>
+            <label for="extras"></label>Cream<br>
+            <input type="checkbox"  name="extras" value="malt" required>
+            <label for="extras"></label>Malt<br>  
+        </div>
+        <div>
+        <p id="currentDrinkDisplay"></p>
+        <button type="button" id="orderAdd">Add to Order</button>
+        <button type="button" id="orderPlace">Place Order</button>
+        </div>
+        <p id="currentOrderDisplay"></p>
+        <p id="totalCostDisplay"></p>
+        <div>
+            <button type="button" id="setFav">Make Favourite!</button>
+            <button type="button" id="orderFav">Order Favourite</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+    "ingredientsList" : [
+        {"Value" : "banana", "DisplayValue" : "Banana"},
+        {"Value" : "strawberry", "DisplayValue" : "Strawberries"},
+        {"Value" : "raspberry", "DisplayValue" : "Raspberries"},
+        {"Value" : "blueberry", "DisplayValue" : "Blueberries"},
+        {"Value" : "mango", "DisplayValue" : "Mango"},
+        {"Value" : "chocolate", "DisplayValue" : "Chocolate"},
+        {"Value" : "white chocolate", "DisplayValue" : "White Chocolate"}
+    ]
+}
